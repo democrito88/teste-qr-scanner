@@ -20,6 +20,7 @@ function App() {
         <main className='principal'>
             <div className="metade esquerda">
             <h3>teste do react-qr-reader</h3>
+            <div className="espaço-branco">
                 <QrReader
                     delay={300}
                     style={{width: '100%'}}
@@ -27,12 +28,15 @@ function App() {
                     onScan={handleScanWebCam}
                     onResult={(result) => setTexto(result)}
                 />
+            </div>
                 <p>{texto}</p>
             </div>
             <canvas className='divisor'></canvas>
             <div className='metade direita'>
                 <h3>teste do react-webcam</h3>
-                <CustomWebCam />
+                <div className="espaço-branco">
+                    <CustomWebCam />
+                </div>
             </div>
         </main>
     );

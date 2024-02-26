@@ -29,3 +29,11 @@
   width: 3px;
   height: 45em;
 }
+
+.espaço-branco{
+  background-color: white;
+  border: dashed gray;
+  border-radius: 1em;
+  min-width: 3em;
+  min-height: 3em;
+}
