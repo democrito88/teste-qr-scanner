@@ -1,6 +1,6 @@
+import React, { useState } from 'react';
 import './App.css';
 import { QrReader } from 'react-qr-reader';
-import { useState } from 'react';
 import CustomWebCam from './components/CustomWebcam';
 
 function App() {
